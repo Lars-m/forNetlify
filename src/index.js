@@ -7,9 +7,11 @@ import { HashRouter as Router } from "react-router-dom";
 
 const AppWithRouter = () => {
   return (
-    <Router>
-      <App bookFactory={bookFactory} />
-    </Router>
+    <div style={{marginLeft:"5%",marginRight:"5%"}}>
+      <Router>
+        <App bookFactory={bookFactory} />
+      </Router>
+    </div>
   );
 };
 ReactDOM.render(<AppWithRouter />, document.getElementById("root"));
