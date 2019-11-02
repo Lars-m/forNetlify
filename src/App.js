@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import {
-  HahsRouter as Router,
   Route,
   Link,
   NavLink,
